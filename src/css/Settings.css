@@ -1,0 +1,107 @@
+/* Updated Settings.css */
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 80px; /* space for FloatingMenu + Footer */
+}
+
+.settings-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.settings-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.settings-buttons button {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px;
+  font-size: clamp(14px, 2.5vw, 18px);
+  border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.section-box {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.section-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.section-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.password-requirements {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.password-requirements span {
+  font-weight: bold;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+.btn-password {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  float: right;
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  float: right;
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+
+.btn-email {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  float: right;
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+

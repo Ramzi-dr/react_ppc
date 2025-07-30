@@ -1,0 +1,38 @@
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}
+
+.popup-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.popup-info {
+  color: green;
+  border-color: green;
+}
+
+.popup-warning {
+  color: orange;
+  border-color: orange;
+}
+
+.popup-error {
+  color: red;
+  border-color: red;
+}
+
+.popup-content .btn {
+  margin-top: 1rem;
+}

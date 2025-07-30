@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3rem;
+  width: 100%;
+  padding-left: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.footer-logo {
+  width: clamp(80px, 20vw, 200px);
+  height: auto;
+  max-width: 100%;
+}
+.footer-wrapper {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}

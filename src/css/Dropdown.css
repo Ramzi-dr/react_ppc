@@ -1,0 +1,87 @@
+.store-dropdown-container {
+  position: relative;
+  font-family: sans-serif;
+  z-index: 999;
+  width: 90%;
+}
+
+.align-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  min-width: 180px;
+}
+
+.horizontal-menu {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  padding: 12px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.horizontal-item {
+  position: relative;
+  background: #f2f2f2;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.horizontal-item:hover {
+  background: #cce0ff;
+}
+
+.submenu-under {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  background: #cceeff;
+  padding: 8px;
+  border: 1px solid #aaa;
+  z-index: 1100;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.submenu-under div {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  border-radius: 4px;
+}
+
+.submenu-under div:hover {
+  background-color: #b2e0f7;
+}
+
+.submenu-under div:active {
+  transform: scale(0.97);
+  background-color: #a0d0ec;
+}
+
+.extra-filter-list div {
+  padding: 5px;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.extra-filter-list div:hover {
+  background: #b2e0f7;
+}
