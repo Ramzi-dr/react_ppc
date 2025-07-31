@@ -1,9 +1,17 @@
 // src/api/user.js
 import { getValidToken } from "./auth";
 
+// 🔒 Helper to catch revoked token errors
+function handleRevokedToken(errText, status) {
+  if (status === 401 && errText.includes("Token revoked")) {
+    console.warn("🚫 Token revoked");
+    localStorage.clear();
+    window.location.href = "/";
+  }
+}
+
 // Request login pincode
 export async function requestPincode(email, password) {
-
   const res = await fetch("/api/user_login", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -66,6 +74,7 @@ export async function updateUser(updateData) {
 
   const text = await res.text();
   if (!res.ok) {
+    handleRevokedToken(text, res.status);
     console.error("[user.js] Update failed:", text);
     throw new Error(`HTTP ${res.status} - ${text}`);
   }
@@ -91,6 +100,7 @@ export async function deleteUser() {
 
   const text = await res.text();
   if (!res.ok) {
+    handleRevokedToken(text, res.status);
     console.error("[user.js] Delete failed:", text);
     throw new Error(`HTTP ${res.status} - ${text}`);
   }

@@ -1,4 +1,4 @@
-// ✅ StoreDropdown.jsx (with loading popup)
+// ✅ StoreDropdown.jsx (with token revoked protection + close menu after filter)
 import { useState, useEffect, useRef } from "react";
 import {
   fetchUserStores,
@@ -13,6 +13,15 @@ import FilterByPeriod from "./FilterByPeriod";
 import FilterBySelectedDays from "./FilterBySelectedDays";
 import Loading from "../Loading";
 import "../css/Dropdown.css";
+
+// 🔒 Token revoked handler
+function handleRevokedToken(errText, status) {
+  if (status === 401 && errText.includes("Token revoked")) {
+    console.warn("🚫 Token revoked in StoreDropdown");
+    localStorage.clear();
+    window.location.href = "/";
+  }
+}
 
 export default function StoreDropdown({
   setPopup,
@@ -36,7 +45,14 @@ export default function StoreDropdown({
     async function loadStores() {
       setLoading(true);
       try {
-        const result = await fetchUserStores();
+        const result = await fetchUserStores().catch((err) => {
+          if (err.message?.includes("Token revoked")) {
+            handleRevokedToken(err.message, 401);
+            return [];
+          }
+          throw err;
+        });
+
         const valid = result.filter(
           (s) => Array.isArray(s.cameras) && s.cameras.length > 0,
         );
@@ -44,13 +60,21 @@ export default function StoreDropdown({
 
         if (valid.length > 0) {
           const first = valid[0];
-          const data = await fetchTodayDataIfStoreHasCameras(first);
-          setChartData(data);
-          setChartMeta({
-            store: first.name,
-            type: "today",
-            date: new Date().toISOString().split("T")[0],
-          });
+          try {
+            const data = await fetchTodayDataIfStoreHasCameras(first);
+            setChartData(data);
+            setChartMeta({
+              store: first.name,
+              type: "today",
+              date: new Date().toISOString().split("T")[0],
+            });
+          } catch (err) {
+            if (err.message?.includes("Token revoked")) {
+              handleRevokedToken(err.message, 401);
+              return;
+            }
+            throw err;
+          }
         }
       } catch (err) {
         setPopup({ message: err.message, type: err.type || "error" });
@@ -105,6 +129,10 @@ export default function StoreDropdown({
       setMenuOpen(false);
       setHoveredStore(null);
     } catch (err) {
+      if (err.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
       setPopup({ message: err.message, type: err.type || "error" });
     } finally {
       setLoading(false);
@@ -136,7 +164,13 @@ export default function StoreDropdown({
       }
       setChartData(data);
       setChartMeta({ store, type: "single", date });
+      setMenuOpen(false);
+      setHoveredStore(null);
     } catch (err) {
+      if (err.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
       setPopup({
         message: err.message || "❌ Failed to fetch data.",
         type: "error",
@@ -159,7 +193,13 @@ export default function StoreDropdown({
       }
       setChartData(data);
       setChartMeta({ store, type: "period", startDate: start, endDate: end });
+      setMenuOpen(false);
+      setHoveredStore(null);
     } catch (err) {
+      if (err.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
       setPopup({
         message: err.message || "❌ Failed to fetch range data.",
         type: "error",
@@ -193,7 +233,13 @@ export default function StoreDropdown({
         startTime: "00:00",
         endTime: "23:59",
       });
+      setMenuOpen(false);
+      setHoveredStore(null);
     } catch (err) {
+      if (err.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
       setPopup({
         message: err.message || "❌ Failed to fetch data.",
         type: "error",

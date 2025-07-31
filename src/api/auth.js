@@ -5,12 +5,12 @@ export async function getValidToken() {
   const refreshToken = localStorage.getItem("refresh_token");
   const expiry = Number(localStorage.getItem("token_expiry"));
 
-  // If token still valid, use it
+  // Use valid access token
   if (accessToken && expiry && Date.now() < expiry) {
     return accessToken;
   }
 
-  // If no refresh token, redirect
+  // No refresh token → force login
   if (!refreshToken) {
     redirectToLogin();
     return null;
@@ -23,7 +23,15 @@ export async function getValidToken() {
       body: JSON.stringify({ refresh_token: refreshToken }),
     });
 
-    if (!res.ok) throw new Error("Refresh token invalid");
+    if (!res.ok) {
+      const text = await res.text();
+      if (res.status === 401 && text.includes("Token revoked")) {
+        console.warn("🔒 Token revoked");
+        redirectToLogin();
+        return null;
+      }
+      throw new Error("Refresh failed");
+    }
 
     const data = await res.json();
     const now = Date.now();
@@ -33,7 +41,8 @@ export async function getValidToken() {
     localStorage.setItem("token_expiry", expires.toString());
 
     return data.access_token;
-  } catch {
+  } catch (err) {
+    console.error("Refresh token error:", err);
     redirectToLogin();
     return null;
   }

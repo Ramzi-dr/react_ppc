@@ -3,6 +3,9 @@
   font-family: sans-serif;
   z-index: 999;
   width: 90%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .align-menu {
@@ -22,25 +25,34 @@
 }
 
 .horizontal-menu {
-  display: flex;
-  gap: 12px;
   position: absolute;
   top: 100%;
   left: 0;
-  background: #ffffff;
-  padding: 12px;
+  z-index: 10;
+  background: white;
   border: 1px solid #ccc;
-  z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  padding: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: max-content;
+  min-width: 160px;
+
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .horizontal-item {
   position: relative;
-  background: #f2f2f2;
-  padding: 10px 14px;
+  padding: 8px 12px;
   cursor: pointer;
-  border-radius: 4px;
   white-space: nowrap;
+
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .horizontal-item:hover {
@@ -49,15 +61,18 @@
 
 .submenu-under {
   position: absolute;
-  top: 100%;
-  left: 0;
-  margin-top: 4px;
-  background: #cceeff;
-  padding: 8px;
-  border: 1px solid #aaa;
-  z-index: 1100;
-  border-radius: 4px;
-  min-width: 150px;
+  top: 0;
+  left: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  min-width: 180px;
+  z-index: 20;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .submenu-under div {
@@ -65,6 +80,12 @@
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
   border-radius: 4px;
+
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .submenu-under div:hover {
@@ -84,4 +105,35 @@
 
 .extra-filter-list div:hover {
   background: #b2e0f7;
+}
+
+/* 📱 Mobile behavior */
+@media (max-width: 600px) {
+  .horizontal-menu {
+    position: fixed;
+    top: 60px;
+    left: 5%;
+    right: 5%;
+    max-height: 60vh;
+    width: 90vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+  }
+
+  .submenu-under {
+    position: relative;
+    top: auto;
+    left: auto;
+    border: none;
+    box-shadow: none;
+    background: #f7f7f7;
+    margin-top: 5px;
+  }
+
+  .horizontal-item {
+    padding: 12px;
+    font-size: 1rem;
+  }
 }

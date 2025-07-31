@@ -17,3 +17,30 @@
   color: red;
   font-weight: bold;
 }
+
+
+.tooltip-title {
+  position: relative;
+  cursor: help;
+}
+
+.tooltip-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  color: #333;
+  white-space: pre-wrap;
+  z-index: 10;
+  display: none;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.tooltip-title:hover .tooltip-popup {
+  display: block;
+}
+

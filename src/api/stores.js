@@ -218,3 +218,54 @@ export async function fetchDataByDaysWithTime({
     };
   }
 }
+// POST /store_data/day (single or multiple days)
+export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
+  const token = await getValidToken();
+
+  if (!store || (!day && !Array.isArray(days))) {
+    throw {
+      message: "❌ 'store' and either 'day' or 'days' required",
+      type: "warning",
+    };
+  }
+
+  const body = { store };
+  if (Array.isArray(days)) body.days = days;
+  else if (day) body.day = day;
+
+  try {
+    const res = await fetch("/api/store_data/day", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(body),
+    });
+
+    const text = await res.text();
+    if (!res.ok) {
+      console.error("[fetchDataByDayOrDays] Failed:", text);
+      throw { message: `❌ HTTP ${res.status} - ${text}`, type: "error" };
+    }
+
+    const rawData = JSON.parse(text);
+    console.log("[fetchDataByDayOrDays] Raw:", rawData);
+
+    const transformed = Object.entries(rawData).map(([date, entries]) => {
+      const total = entries.reduce(
+        (sum, e) => sum + parseInt(e.enterCount || "0", 10),
+        0,
+      );
+      return { date, total };
+    });
+
+    return transformed.sort((a, b) => a.date.localeCompare(b.date));
+  } catch (e) {
+    console.error("[fetchDataByDayOrDays] Error:", e.message);
+    throw {
+      message: e.message || "❌ Failed to fetch day(s) data.",
+      type: "error",
+    };
+  }
+}
