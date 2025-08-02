@@ -98,6 +98,7 @@ export default function Chart({ data = {}, meta = {} }) {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+
     plugins: {
       datalabels: { clip: true },
       legend: { display: false },
@@ -122,6 +123,8 @@ export default function Chart({ data = {}, meta = {} }) {
         beginAtZero: true,
         grid: { display: false },
         ticks: { display: false },
+         min: 0,
+         suggestedMax: 50, // ← add this line to compress chart height!
       },
     },
   };

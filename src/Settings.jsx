@@ -4,6 +4,8 @@ import Popup from "./Popup";
 import Loading from "./Loading";
 import "./css/Settings.css";
 import Footer from "./components/Footer";
+import { FiHome } from "react-icons/fi";
+
 
 export default function Settings() {
   const [popup, setPopup] = useState(null);
@@ -328,6 +330,28 @@ export default function Settings() {
           }}
         />
       )}
+      <button
+  onClick={() => (window.location.href = "/home")}
+  title="Home"
+  style={{
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    width: "60px",
+    height: "60px",
+    borderRadius: "50%",
+    backgroundColor: "#28a745",
+    border: "none",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 10000,
+    boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+  }}
+>
+  <FiHome color="white" size={24} />
+</button>
+
       <FloatingMenu />
       <div className="footer-wrapper">
         <Footer />
