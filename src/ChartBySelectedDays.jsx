@@ -1,4 +1,4 @@
-// ChartByDays.jsx
+// ChartBySelectedDays.jsx
 import React from "react";
 import {
   BarChart,
@@ -13,7 +13,7 @@ import {
 } from "recharts";
 import "./css/Chart.css";
 
-export default function ChartByDays({ data, meta }) {
+export default function ChartBySelectedDays({ data, meta }) {
   if (!data || !Array.isArray(data) || data.length === 0) {
     return <div className="chart-error">No data available</div>;
   }
@@ -22,16 +22,15 @@ export default function ChartByDays({ data, meta }) {
   const title = meta?.store ? (
     <span className="tooltip-title">
       {meta.store} – Multiple Days
-      <span className="tooltip-popup">{daysList}</span>
+      {daysList && <span className="tooltip-popup">{daysList}</span>}
     </span>
   ) : (
     "Store Data"
   );
 
-  const max = Math.max(...data.map((d) => d.total));
-
+  const max = Math.max(...data.map((d) => d.total || 0));
   const coloredData = data.map((item) => {
-    const ratio = item.total / max;
+    const ratio = max > 0 ? item.total / max : 0;
     const color = `rgba(66, 135, 245, ${0.3 + 0.7 * ratio})`;
     return { ...item, fill: color };
   });

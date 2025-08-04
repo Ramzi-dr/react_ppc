@@ -1,12 +1,15 @@
-// Home.jsx
 import { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
 import StoreDropdown from "./components/StoreDropdown";
 import Popup from "./Popup";
 import Chart from "./Chart";
 import ChartByPeriod from "./ChartByPeriod";
+import ChartBySelectedDays from "./ChartBySelectedDays";
 import Footer from "./components/Footer";
+import { FiDownload } from "react-icons/fi";
 import "./css/Home.css";
+import { downloadChartData } from "./download";
+
 
 export default function Home() {
   const [popup, setPopup] = useState(null);
@@ -16,6 +19,7 @@ export default function Home() {
     type: "today",
     date: null,
   });
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const renderChart = () => {
     if (!chartData || Object.keys(chartData).length === 0) return null;
@@ -24,13 +28,27 @@ export default function Home() {
       return <ChartByPeriod data={chartData} meta={chartMeta} />;
     }
 
+    if (chartMeta.type === "days_time") {
+      return <ChartBySelectedDays data={chartData} meta={chartMeta} />;
+    }
+
     return <Chart data={chartData} meta={chartMeta} />;
   };
 
   return (
     <div className="page-wrapper">
-      <div className="menu-footer-wrapper">
-        <FloatingMenu />
+      {/* Fixed buttons in top-right corner */}
+      <div className="top-right-buttons">
+        {!isMenuOpen && (
+          <button
+            className="download-button"
+            onClick={() => downloadChartData(chartData)}
+            title="Download"
+          >
+            <FiDownload size={28} />
+          </button>
+        )}
+        <FloatingMenu onToggle={(open) => setIsMenuOpen(open)} />
       </div>
 
       <div className="header-area">

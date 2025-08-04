@@ -37,61 +37,39 @@
   padding: 0 1rem;
   box-sizing: border-box;
 }
-.page-wrapper {
+
+.top-right-buttons {
+  position: fixed;
+  top: 10px;
+  right: 90px;
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  z-index: 9999;
 }
 
-.header-area {
-  padding: 1rem;
-}
-
-.chart-area {
-  flex: 1;
+.download-button {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  color: #343a40;
+  border: none;
+  border-radius: 50%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
-.chart-area .chart-wrapper {
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  position: relative;
-  background-color: white;
-  padding: 0 1rem;
-  box-sizing: border-box;
-}
-
-.menu-footer-wrapper {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  z-index: 10;
-}
-
-
+/* Responsive tweaks for small screens */
 @media (max-width: 768px) {
   .page-wrapper {
-    height: 100dvh; /* fixes mobile height issues */
+    height: 100dvh;
   }
 
   .chart-area {
-    align-items: flex-start; /* avoid vertical centering overflow */
+    align-items: flex-start;
   }
 
   .footer-container {
@@ -99,8 +77,13 @@
     padding-bottom: 0.5rem;
   }
 
-  .menu-footer-wrapper {
-    bottom: 5px;
-    right: 5px;
+  .top-right-buttons button {
+    width: 45px;
+    height: 45px;
+  }
+
+  .top-right-buttons svg {
+    width: 20px;
+    height: 20px;
   }
 }

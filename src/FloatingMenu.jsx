@@ -7,13 +7,22 @@ import {
   FiHome,
 } from "react-icons/fi";
 import Popup from "./Popup";
+import "./css/FloatingMenu.css";
 
-export default function FloatingMenu() {
+export default function FloatingMenu({ onToggle }) {
   const [open, setOpen] = useState(false);
   const [popup, setPopup] = useState(null);
   const menuRef = useRef(null);
 
   const isSettingsPage = window.location.pathname.includes("settings");
+
+  const handleToggle = () => {
+    setOpen((prev) => {
+      const next = !prev;
+      setTimeout(() => onToggle?.(next), 0);
+      return next;
+    });
+  };
 
   const handleLogout = () => {
     localStorage.clear();
@@ -29,8 +38,26 @@ export default function FloatingMenu() {
   };
 
   const handleSupport = () => {
-    setOpen(false);
-    window.open("https://www.homesecurity.ch/kontakt", "_blank");
+    setPopup({
+      type: "info",
+      message: (
+        <div className="text-center">
+          <b>Contact HomeSecurity</b>
+          <div className="mt-3 d-flex flex-column align-items-center">
+            <button
+              className="btn btn-primary"
+              onClick={() => {
+                setPopup(null);
+                window.open("https://www.homesecurity.ch/kontakt", "_blank");
+              }}
+            >
+              Open Support Page
+            </button>
+          </div>
+        </div>
+      ),
+      onClose: () => setPopup(null),
+    });
   };
 
   const handleLogoutPopup = () => {
@@ -48,6 +75,7 @@ export default function FloatingMenu() {
               onClick={() => {
                 setPopup(null);
                 setOpen(false);
+                onToggle?.(false);
                 handleLogout();
               }}
             >
@@ -56,26 +84,29 @@ export default function FloatingMenu() {
           </div>
         </div>
       ),
-      onClose: () => setOpen(false),
+      onClose: () => {
+        setOpen(false);
+        onToggle?.(false);
+      },
     });
   };
 
   const menuConfig = isSettingsPage
     ? [
         {
-          icon: <FiLogOut color="white" size={20} />,
+          icon: <FiLogOut className="icon" />,
           bgColor: "#dc3545",
           title: "Logout",
           onClick: handleLogoutPopup,
         },
         {
-          icon: <FiHome color="white" size={20} />,
+          icon: <FiHome className="icon" />,
           bgColor: "#28a745",
           title: "Home",
           onClick: handleGoHome,
         },
         {
-          icon: <FiHelpCircle color="white" size={20} />,
+          icon: <FiHelpCircle className="icon" />,
           bgColor: "#6c757d",
           title: "Support",
           onClick: handleSupport,
@@ -83,19 +114,19 @@ export default function FloatingMenu() {
       ]
     : [
         {
-          icon: <FiLogOut color="white" size={20} />,
+          icon: <FiLogOut className="icon" />,
           bgColor: "#dc3545",
           title: "Logout",
           onClick: handleLogoutPopup,
         },
         {
-          icon: <FiSettings color="white" size={20} />,
+          icon: <FiSettings className="icon" />,
           bgColor: "#007bff",
           title: "Settings",
           onClick: handleSettings,
         },
         {
-          icon: <FiHelpCircle color="white" size={20} />,
+          icon: <FiHelpCircle className="icon" />,
           bgColor: "#6c757d",
           title: "Support",
           onClick: handleSupport,
@@ -105,21 +136,21 @@ export default function FloatingMenu() {
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
-        setOpen(false);
+        if (open) {
+          setOpen(false);
+          onToggle?.(false);
+        }
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, [open, onToggle]);
 
-  const radius = 120; // controls fly-out distance
-  const iconSize = 50;
+  const radius = 120;
   const baseRight = 20;
-  const baseBottom = 10;
-  const centerOffset = 30;
+  const baseTop = 10;
   const angleStart = 95;
   const angleEnd = -1;
-
 
   const step =
     menuConfig.length > 1
@@ -129,13 +160,8 @@ export default function FloatingMenu() {
   return (
     <div
       ref={menuRef}
-      style={{
-        position: "fixed",
-        top: `${baseBottom}px`,
-        right: `${baseRight}px`,
-
-        zIndex: 9999,
-      }}
+      className="floating-menu"
+      style={{ top: baseTop, right: baseRight }}
     >
       {popup && (
         <Popup
@@ -143,7 +169,7 @@ export default function FloatingMenu() {
           type={popup.type}
           onClose={() => {
             setPopup(null);
-            popup.onClose?.();
+            setTimeout(() => popup.onClose?.(), 0);
           }}
         />
       )}
@@ -159,24 +185,11 @@ export default function FloatingMenu() {
             key={index}
             title={item.title}
             onClick={item.onClick}
+            className={`floating-button ${open ? "open" : ""}`}
             style={{
-              width: `${iconSize}px`,
-              height: `${iconSize}px`,
+              right: open ? `${x}px` : "0px",
+              top: open ? `${y}px` : "0px",
               backgroundColor: item.bgColor,
-              border: "none",
-              borderRadius: "50%",
-              position: "absolute",
-              right: open ? `${x}px` : `0px`,
-              top: open ? `${y}px` : `0px`,
-
-              opacity: open ? 1 : 0,
-              transform: open ? "scale(1)" : "scale(0.5)",
-              pointerEvents: open ? "auto" : "none",
-              transition: "all 0.3s ease",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              zIndex: 1001,
             }}
           >
             {item.icon}
@@ -184,28 +197,11 @@ export default function FloatingMenu() {
         );
       })}
 
-      <button
-        onClick={() => setOpen((prev) => !prev)}
-        style={{
-          width: "60px",
-          height: "60px",
-          backgroundColor: "#343a40",
-          color: "white",
-          border: "none",
-          borderRadius: "50%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-          position: "relative",
-          zIndex: 10000,
-        }}
-      >
+      <button onClick={handleToggle} className="menu-toggle-button">
         <FiMenu
-          size={28}
+          className="menu-icon"
           style={{
             transform: open ? "rotate(90deg)" : "rotate(0deg)",
-            transition: "transform 0.3s ease",
           }}
         />
       </button>

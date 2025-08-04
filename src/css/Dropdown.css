@@ -21,6 +21,14 @@
   cursor: pointer;
   font-weight: bold;
   border-radius: 4px;
+  min-width: 180px;
+
+}
+@media (max-width: 768px) {
+  .dropdown-button {
+    min-width: unset;
+    width: auto;
+  }
 }
 
 .horizontal-menu {
@@ -134,5 +142,21 @@
   .horizontal-item {
     padding: 12px;
     font-size: 1rem;
+  }
+}
+/*
+📱 Mobile fix (≤ 480px):
+Ensures the dropdown button never exceeds screen width
+even if store name is very long.
+Truncates with ellipsis to avoid overflow.
+*/
+@media (max-width: 480px) {
+  .dropdown-button {
+    min-width: unset;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }

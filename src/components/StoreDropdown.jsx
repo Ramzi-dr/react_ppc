@@ -6,6 +6,7 @@ import {
   fetchDataByTime,
   fetchDataByPeriod,
   fetchDataByDaysWithTime,
+  fetchDataByDayOrDays
 } from "../api/stores";
 
 import FilterBySingleDay from "./FilterBySingleDay";
@@ -212,11 +213,9 @@ export default function StoreDropdown({
   const handleSelectedDaysSubmit = async ({ store, days }) => {
     setLoading(true);
     try {
-      const data = await fetchDataByDaysWithTime({
+      const data = await fetchDataByDayOrDays({
         store,
-        days,
-        startTime: "00:00",
-        endTime: "23:59",
+        days:days,
       });
       if (!data || Object.keys(data).length === 0) {
         setPopup({

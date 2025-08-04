@@ -1,0 +1,6162 @@
+{
+  "2025-07-28": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T00:59:59",
+        "startTime": "2025-07-28T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T01:59:59",
+        "startTime": "2025-07-28T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T02:59:59",
+        "startTime": "2025-07-28T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T03:59:59",
+        "startTime": "2025-07-28T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T04:59:59",
+        "startTime": "2025-07-28T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T05:59:59",
+        "startTime": "2025-07-28T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "24",
+            "exitCount": "17",
+            "id": "1",
+            "passingCount": "77"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "24",
+      "exitCount": "17",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T06:59:59",
+        "startTime": "2025-07-28T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "58",
+            "exitCount": "48",
+            "id": "1",
+            "passingCount": "124"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "58",
+      "exitCount": "48",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T07:59:59",
+        "startTime": "2025-07-28T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "77",
+            "exitCount": "65",
+            "id": "1",
+            "passingCount": "208"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "77",
+      "exitCount": "65",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T08:59:59",
+        "startTime": "2025-07-28T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "65",
+            "exitCount": "57",
+            "id": "1",
+            "passingCount": "120"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "65",
+      "exitCount": "57",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T09:59:59",
+        "startTime": "2025-07-28T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "105",
+            "exitCount": "87",
+            "id": "1",
+            "passingCount": "150"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "105",
+      "exitCount": "87",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T10:59:59",
+        "startTime": "2025-07-28T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "89",
+            "exitCount": "73",
+            "id": "1",
+            "passingCount": "140"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "89",
+      "exitCount": "73",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T11:59:59",
+        "startTime": "2025-07-28T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "63",
+            "exitCount": "59",
+            "id": "1",
+            "passingCount": "114"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "63",
+      "exitCount": "59",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T12:59:59",
+        "startTime": "2025-07-28T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "79",
+            "exitCount": "75",
+            "id": "1",
+            "passingCount": "130"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "79",
+      "exitCount": "75",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T13:59:59",
+        "startTime": "2025-07-28T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "55",
+            "exitCount": "52",
+            "id": "1",
+            "passingCount": "131"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "55",
+      "exitCount": "52",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T14:59:59",
+        "startTime": "2025-07-28T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "82",
+            "exitCount": "67",
+            "id": "1",
+            "passingCount": "111"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "82",
+      "exitCount": "67",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T15:59:59",
+        "startTime": "2025-07-28T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "89",
+            "exitCount": "69",
+            "id": "1",
+            "passingCount": "169"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "89",
+      "exitCount": "69",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T16:59:59",
+        "startTime": "2025-07-28T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "72",
+            "exitCount": "60",
+            "id": "1",
+            "passingCount": "113"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "72",
+      "exitCount": "60",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T17:59:59",
+        "startTime": "2025-07-28T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "48",
+            "exitCount": "44",
+            "id": "1",
+            "passingCount": "122"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "48",
+      "exitCount": "44",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T18:59:59",
+        "startTime": "2025-07-28T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "46",
+            "exitCount": "39",
+            "id": "1",
+            "passingCount": "58"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "46",
+      "exitCount": "39",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T19:59:59",
+        "startTime": "2025-07-28T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T20:59:59",
+        "startTime": "2025-07-28T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T21:59:59",
+        "startTime": "2025-07-28T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T22:59:59",
+        "startTime": "2025-07-28T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-28T23:59:59",
+        "startTime": "2025-07-28T23:00:00"
+      }
+    }
+  ],
+  "2025-07-29": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T00:59:59",
+        "startTime": "2025-07-29T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T01:59:59",
+        "startTime": "2025-07-29T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T02:59:59",
+        "startTime": "2025-07-29T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T03:59:59",
+        "startTime": "2025-07-29T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T04:59:59",
+        "startTime": "2025-07-29T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T05:59:59",
+        "startTime": "2025-07-29T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "13",
+            "exitCount": "8",
+            "id": "1",
+            "passingCount": "42"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "13",
+      "exitCount": "8",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T06:59:59",
+        "startTime": "2025-07-29T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "37",
+            "exitCount": "31",
+            "id": "1",
+            "passingCount": "74"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "37",
+      "exitCount": "31",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T07:59:59",
+        "startTime": "2025-07-29T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "33",
+            "exitCount": "25",
+            "id": "1",
+            "passingCount": "91"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "33",
+      "exitCount": "25",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T08:59:59",
+        "startTime": "2025-07-29T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "51",
+            "exitCount": "46",
+            "id": "1",
+            "passingCount": "78"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "51",
+      "exitCount": "46",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T09:59:59",
+        "startTime": "2025-07-29T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "65",
+            "id": "1",
+            "passingCount": "155"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "65",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T10:59:59",
+        "startTime": "2025-07-29T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "81",
+            "exitCount": "79",
+            "id": "1",
+            "passingCount": "189"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "81",
+      "exitCount": "79",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T11:59:59",
+        "startTime": "2025-07-29T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "45",
+            "exitCount": "36",
+            "id": "1",
+            "passingCount": "139"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "45",
+      "exitCount": "36",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T12:59:59",
+        "startTime": "2025-07-29T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "48",
+            "exitCount": "46",
+            "id": "1",
+            "passingCount": "81"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "48",
+      "exitCount": "46",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T13:59:59",
+        "startTime": "2025-07-29T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "91",
+            "exitCount": "89",
+            "id": "1",
+            "passingCount": "120"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "91",
+      "exitCount": "89",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T14:59:59",
+        "startTime": "2025-07-29T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "64",
+            "exitCount": "56",
+            "id": "1",
+            "passingCount": "128"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "64",
+      "exitCount": "56",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T15:59:59",
+        "startTime": "2025-07-29T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "74",
+            "exitCount": "46",
+            "id": "1",
+            "passingCount": "124"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "74",
+      "exitCount": "46",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T16:59:59",
+        "startTime": "2025-07-29T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "42",
+            "exitCount": "47",
+            "id": "1",
+            "passingCount": "85"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "42",
+      "exitCount": "47",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T17:59:59",
+        "startTime": "2025-07-29T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "48",
+            "exitCount": "43",
+            "id": "1",
+            "passingCount": "113"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "48",
+      "exitCount": "43",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T18:59:59",
+        "startTime": "2025-07-29T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "29",
+            "exitCount": "32",
+            "id": "1",
+            "passingCount": "109"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "29",
+      "exitCount": "32",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T19:59:59",
+        "startTime": "2025-07-29T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T20:59:59",
+        "startTime": "2025-07-29T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T21:59:59",
+        "startTime": "2025-07-29T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T22:59:59",
+        "startTime": "2025-07-29T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-29T23:59:59",
+        "startTime": "2025-07-29T23:00:00"
+      }
+    }
+  ],
+  "2025-07-30": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T00:59:59",
+        "startTime": "2025-07-30T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T01:59:59",
+        "startTime": "2025-07-30T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T02:59:59",
+        "startTime": "2025-07-30T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T03:59:59",
+        "startTime": "2025-07-30T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T04:59:59",
+        "startTime": "2025-07-30T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "1",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "1",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T05:59:59",
+        "startTime": "2025-07-30T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "26",
+            "exitCount": "19",
+            "id": "1",
+            "passingCount": "36"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "26",
+      "exitCount": "19",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T06:59:59",
+        "startTime": "2025-07-30T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "37",
+            "exitCount": "36",
+            "id": "1",
+            "passingCount": "94"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "37",
+      "exitCount": "36",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T07:59:59",
+        "startTime": "2025-07-30T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "57",
+            "exitCount": "51",
+            "id": "1",
+            "passingCount": "174"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "57",
+      "exitCount": "51",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T08:59:59",
+        "startTime": "2025-07-30T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "73",
+            "id": "1",
+            "passingCount": "185"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "73",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T09:59:59",
+        "startTime": "2025-07-30T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "88",
+            "exitCount": "75",
+            "id": "1",
+            "passingCount": "109"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "88",
+      "exitCount": "75",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T10:59:59",
+        "startTime": "2025-07-30T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "129",
+            "exitCount": "118",
+            "id": "1",
+            "passingCount": "207"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "129",
+      "exitCount": "118",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T11:59:59",
+        "startTime": "2025-07-30T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "85",
+            "exitCount": "86",
+            "id": "1",
+            "passingCount": "167"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "85",
+      "exitCount": "86",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T12:59:59",
+        "startTime": "2025-07-30T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "57",
+            "id": "1",
+            "passingCount": "99"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "57",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T13:59:59",
+        "startTime": "2025-07-30T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "52",
+            "id": "1",
+            "passingCount": "106"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "52",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T14:59:59",
+        "startTime": "2025-07-30T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "71",
+            "exitCount": "68",
+            "id": "1",
+            "passingCount": "132"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "71",
+      "exitCount": "68",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T15:59:59",
+        "startTime": "2025-07-30T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "69",
+            "exitCount": "69",
+            "id": "1",
+            "passingCount": "137"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "69",
+      "exitCount": "69",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T16:59:59",
+        "startTime": "2025-07-30T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "61",
+            "exitCount": "49",
+            "id": "1",
+            "passingCount": "126"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "61",
+      "exitCount": "49",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T17:59:59",
+        "startTime": "2025-07-30T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "38",
+            "exitCount": "38",
+            "id": "1",
+            "passingCount": "113"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "38",
+      "exitCount": "38",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T18:59:59",
+        "startTime": "2025-07-30T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "53",
+            "exitCount": "38",
+            "id": "1",
+            "passingCount": "88"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "53",
+      "exitCount": "38",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T19:59:59",
+        "startTime": "2025-07-30T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T20:59:59",
+        "startTime": "2025-07-30T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T21:59:59",
+        "startTime": "2025-07-30T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T22:59:59",
+        "startTime": "2025-07-30T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-30T23:59:59",
+        "startTime": "2025-07-30T23:00:00"
+      }
+    }
+  ],
+  "2025-07-31": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T00:59:59",
+        "startTime": "2025-07-31T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T01:59:59",
+        "startTime": "2025-07-31T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T02:59:59",
+        "startTime": "2025-07-31T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T03:59:59",
+        "startTime": "2025-07-31T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T04:59:59",
+        "startTime": "2025-07-31T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "2",
+            "id": "1",
+            "passingCount": "4"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "2",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T05:59:59",
+        "startTime": "2025-07-31T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "41",
+            "exitCount": "22",
+            "id": "1",
+            "passingCount": "45"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "41",
+      "exitCount": "22",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T06:59:59",
+        "startTime": "2025-07-31T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "55",
+            "exitCount": "46",
+            "id": "1",
+            "passingCount": "104"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "55",
+      "exitCount": "46",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T07:59:59",
+        "startTime": "2025-07-31T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "86",
+            "exitCount": "75",
+            "id": "1",
+            "passingCount": "95"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "86",
+      "exitCount": "75",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T08:59:59",
+        "startTime": "2025-07-31T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "85",
+            "exitCount": "75",
+            "id": "1",
+            "passingCount": "125"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "85",
+      "exitCount": "75",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T09:59:59",
+        "startTime": "2025-07-31T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "116",
+            "exitCount": "97",
+            "id": "1",
+            "passingCount": "130"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "116",
+      "exitCount": "97",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T10:59:59",
+        "startTime": "2025-07-31T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "118",
+            "exitCount": "99",
+            "id": "1",
+            "passingCount": "167"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "118",
+      "exitCount": "99",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T11:59:59",
+        "startTime": "2025-07-31T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "74",
+            "id": "1",
+            "passingCount": "156"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "74",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T12:59:59",
+        "startTime": "2025-07-31T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "76",
+            "exitCount": "68",
+            "id": "1",
+            "passingCount": "94"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "76",
+      "exitCount": "68",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T13:59:59",
+        "startTime": "2025-07-31T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "87",
+            "exitCount": "80",
+            "id": "1",
+            "passingCount": "130"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "87",
+      "exitCount": "80",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T14:59:59",
+        "startTime": "2025-07-31T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "91",
+            "exitCount": "65",
+            "id": "1",
+            "passingCount": "141"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "91",
+      "exitCount": "65",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T15:59:59",
+        "startTime": "2025-07-31T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "68",
+            "exitCount": "65",
+            "id": "1",
+            "passingCount": "178"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "68",
+      "exitCount": "65",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T16:59:59",
+        "startTime": "2025-07-31T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "48",
+            "exitCount": "44",
+            "id": "1",
+            "passingCount": "117"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "48",
+      "exitCount": "44",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T17:59:59",
+        "startTime": "2025-07-31T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "25",
+            "exitCount": "17",
+            "id": "1",
+            "passingCount": "86"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "25",
+      "exitCount": "17",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T18:59:59",
+        "startTime": "2025-07-31T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "34",
+            "exitCount": "32",
+            "id": "1",
+            "passingCount": "104"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "34",
+      "exitCount": "32",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T19:59:59",
+        "startTime": "2025-07-31T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "41",
+            "exitCount": "31",
+            "id": "1",
+            "passingCount": "86"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "41",
+      "exitCount": "31",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T20:59:59",
+        "startTime": "2025-07-31T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "17",
+            "exitCount": "24",
+            "id": "1",
+            "passingCount": "44"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "17",
+      "exitCount": "24",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T21:59:59",
+        "startTime": "2025-07-31T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "1",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "1",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T22:59:59",
+        "startTime": "2025-07-31T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-07-31T23:59:59",
+        "startTime": "2025-07-31T23:00:00"
+      }
+    }
+  ],
+  "2025-08-01": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T00:59:59",
+        "startTime": "2025-08-01T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T01:59:59",
+        "startTime": "2025-08-01T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T02:59:59",
+        "startTime": "2025-08-01T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T03:59:59",
+        "startTime": "2025-08-01T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T04:59:59",
+        "startTime": "2025-08-01T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "4",
+            "exitCount": "2",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "4",
+      "exitCount": "2",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T05:59:59",
+        "startTime": "2025-08-01T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "23",
+            "exitCount": "25",
+            "id": "1",
+            "passingCount": "63"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "23",
+      "exitCount": "25",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T06:59:59",
+        "startTime": "2025-08-01T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "38",
+            "exitCount": "33",
+            "id": "1",
+            "passingCount": "88"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "38",
+      "exitCount": "33",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T07:59:59",
+        "startTime": "2025-08-01T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "63",
+            "exitCount": "50",
+            "id": "1",
+            "passingCount": "101"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "63",
+      "exitCount": "50",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T08:59:59",
+        "startTime": "2025-08-01T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "96",
+            "exitCount": "67",
+            "id": "1",
+            "passingCount": "134"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "96",
+      "exitCount": "67",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T09:59:59",
+        "startTime": "2025-08-01T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "101",
+            "exitCount": "86",
+            "id": "1",
+            "passingCount": "174"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "101",
+      "exitCount": "86",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T10:59:59",
+        "startTime": "2025-08-01T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "116",
+            "exitCount": "117",
+            "id": "1",
+            "passingCount": "203"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "116",
+      "exitCount": "117",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T11:59:59",
+        "startTime": "2025-08-01T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "49",
+            "exitCount": "49",
+            "id": "1",
+            "passingCount": "120"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "49",
+      "exitCount": "49",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T12:59:59",
+        "startTime": "2025-08-01T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "81",
+            "exitCount": "63",
+            "id": "1",
+            "passingCount": "113"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "81",
+      "exitCount": "63",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T13:59:59",
+        "startTime": "2025-08-01T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "72",
+            "exitCount": "67",
+            "id": "1",
+            "passingCount": "155"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "72",
+      "exitCount": "67",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T14:59:59",
+        "startTime": "2025-08-01T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "50",
+            "exitCount": "54",
+            "id": "1",
+            "passingCount": "146"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "50",
+      "exitCount": "54",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T15:59:59",
+        "startTime": "2025-08-01T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "54",
+            "exitCount": "38",
+            "id": "1",
+            "passingCount": "123"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "54",
+      "exitCount": "38",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T16:59:59",
+        "startTime": "2025-08-01T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "51",
+            "exitCount": "47",
+            "id": "1",
+            "passingCount": "99"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "51",
+      "exitCount": "47",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T17:59:59",
+        "startTime": "2025-08-01T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "42",
+            "exitCount": "31",
+            "id": "1",
+            "passingCount": "64"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "42",
+      "exitCount": "31",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T18:59:59",
+        "startTime": "2025-08-01T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "74",
+            "exitCount": "66",
+            "id": "1",
+            "passingCount": "93"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "74",
+      "exitCount": "66",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T19:59:59",
+        "startTime": "2025-08-01T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "39",
+            "exitCount": "41",
+            "id": "1",
+            "passingCount": "91"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "39",
+      "exitCount": "41",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T20:59:59",
+        "startTime": "2025-08-01T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "22",
+            "exitCount": "24",
+            "id": "1",
+            "passingCount": "33"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "22",
+      "exitCount": "24",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T21:59:59",
+        "startTime": "2025-08-01T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T22:59:59",
+        "startTime": "2025-08-01T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-01T23:59:59",
+        "startTime": "2025-08-01T23:00:00"
+      }
+    }
+  ],
+  "2025-08-02": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T00:59:59",
+        "startTime": "2025-08-02T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T01:59:59",
+        "startTime": "2025-08-02T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T02:59:59",
+        "startTime": "2025-08-02T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T03:59:59",
+        "startTime": "2025-08-02T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T04:59:59",
+        "startTime": "2025-08-02T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "3",
+            "id": "1",
+            "passingCount": "2"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "3",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T05:59:59",
+        "startTime": "2025-08-02T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "32",
+            "exitCount": "23",
+            "id": "1",
+            "passingCount": "39"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "32",
+      "exitCount": "23",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T06:59:59",
+        "startTime": "2025-08-02T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "46",
+            "exitCount": "38",
+            "id": "1",
+            "passingCount": "67"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "46",
+      "exitCount": "38",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T07:59:59",
+        "startTime": "2025-08-02T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "41",
+            "exitCount": "37",
+            "id": "1",
+            "passingCount": "123"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "41",
+      "exitCount": "37",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T08:59:59",
+        "startTime": "2025-08-02T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "50",
+            "exitCount": "41",
+            "id": "1",
+            "passingCount": "143"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "50",
+      "exitCount": "41",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T09:59:59",
+        "startTime": "2025-08-02T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "100",
+            "exitCount": "90",
+            "id": "1",
+            "passingCount": "135"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "100",
+      "exitCount": "90",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T10:59:59",
+        "startTime": "2025-08-02T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "99",
+            "exitCount": "95",
+            "id": "1",
+            "passingCount": "178"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "99",
+      "exitCount": "95",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T11:59:59",
+        "startTime": "2025-08-02T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "68",
+            "exitCount": "54",
+            "id": "1",
+            "passingCount": "147"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "68",
+      "exitCount": "54",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T12:59:59",
+        "startTime": "2025-08-02T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "70",
+            "exitCount": "57",
+            "id": "1",
+            "passingCount": "147"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "70",
+      "exitCount": "57",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T13:59:59",
+        "startTime": "2025-08-02T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "83",
+            "exitCount": "77",
+            "id": "1",
+            "passingCount": "146"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "83",
+      "exitCount": "77",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T14:59:59",
+        "startTime": "2025-08-02T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "58",
+            "exitCount": "61",
+            "id": "1",
+            "passingCount": "145"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "58",
+      "exitCount": "61",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T15:59:59",
+        "startTime": "2025-08-02T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "101",
+            "exitCount": "85",
+            "id": "1",
+            "passingCount": "170"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "101",
+      "exitCount": "85",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T16:59:59",
+        "startTime": "2025-08-02T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "69",
+            "exitCount": "58",
+            "id": "1",
+            "passingCount": "136"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "69",
+      "exitCount": "58",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T17:59:59",
+        "startTime": "2025-08-02T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "31",
+            "exitCount": "26",
+            "id": "1",
+            "passingCount": "103"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "31",
+      "exitCount": "26",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T18:59:59",
+        "startTime": "2025-08-02T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "62",
+            "exitCount": "47",
+            "id": "1",
+            "passingCount": "109"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "62",
+      "exitCount": "47",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T19:59:59",
+        "startTime": "2025-08-02T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "64",
+            "exitCount": "63",
+            "id": "1",
+            "passingCount": "79"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "64",
+      "exitCount": "63",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T20:59:59",
+        "startTime": "2025-08-02T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "27",
+            "exitCount": "30",
+            "id": "1",
+            "passingCount": "37"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "27",
+      "exitCount": "30",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T21:59:59",
+        "startTime": "2025-08-02T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T22:59:59",
+        "startTime": "2025-08-02T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-02T23:59:59",
+        "startTime": "2025-08-02T23:00:00"
+      }
+    }
+  ],
+  "2025-08-03": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T00:59:59",
+        "startTime": "2025-08-03T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T01:59:59",
+        "startTime": "2025-08-03T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T02:59:59",
+        "startTime": "2025-08-03T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T03:59:59",
+        "startTime": "2025-08-03T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T04:59:59",
+        "startTime": "2025-08-03T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "2",
+            "exitCount": "2",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "2",
+      "exitCount": "2",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T05:59:59",
+        "startTime": "2025-08-03T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "23",
+            "exitCount": "12",
+            "id": "1",
+            "passingCount": "43"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "23",
+      "exitCount": "12",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T06:59:59",
+        "startTime": "2025-08-03T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "23",
+            "exitCount": "19",
+            "id": "1",
+            "passingCount": "63"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "23",
+      "exitCount": "19",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T07:59:59",
+        "startTime": "2025-08-03T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "69",
+            "exitCount": "62",
+            "id": "1",
+            "passingCount": "118"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "69",
+      "exitCount": "62",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T08:59:59",
+        "startTime": "2025-08-03T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "110",
+            "exitCount": "82",
+            "id": "1",
+            "passingCount": "144"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "110",
+      "exitCount": "82",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T09:59:59",
+        "startTime": "2025-08-03T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "114",
+            "exitCount": "90",
+            "id": "1",
+            "passingCount": "152"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "114",
+      "exitCount": "90",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T10:59:59",
+        "startTime": "2025-08-03T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "96",
+            "exitCount": "82",
+            "id": "1",
+            "passingCount": "178"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "96",
+      "exitCount": "82",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T11:59:59",
+        "startTime": "2025-08-03T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "59",
+            "exitCount": "45",
+            "id": "1",
+            "passingCount": "106"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "59",
+      "exitCount": "45",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T12:59:59",
+        "startTime": "2025-08-03T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "72",
+            "exitCount": "55",
+            "id": "1",
+            "passingCount": "103"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "72",
+      "exitCount": "55",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T13:59:59",
+        "startTime": "2025-08-03T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "76",
+            "exitCount": "57",
+            "id": "1",
+            "passingCount": "116"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "76",
+      "exitCount": "57",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T14:59:59",
+        "startTime": "2025-08-03T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "66",
+            "exitCount": "57",
+            "id": "1",
+            "passingCount": "147"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "66",
+      "exitCount": "57",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T15:59:59",
+        "startTime": "2025-08-03T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "68",
+            "exitCount": "62",
+            "id": "1",
+            "passingCount": "174"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "68",
+      "exitCount": "62",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T16:59:59",
+        "startTime": "2025-08-03T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "37",
+            "exitCount": "40",
+            "id": "1",
+            "passingCount": "94"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "37",
+      "exitCount": "40",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T17:59:59",
+        "startTime": "2025-08-03T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "34",
+            "exitCount": "30",
+            "id": "1",
+            "passingCount": "117"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "34",
+      "exitCount": "30",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T18:59:59",
+        "startTime": "2025-08-03T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "74",
+            "exitCount": "51",
+            "id": "1",
+            "passingCount": "93"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "74",
+      "exitCount": "51",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T19:59:59",
+        "startTime": "2025-08-03T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "59",
+            "exitCount": "34",
+            "id": "1",
+            "passingCount": "95"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "59",
+      "exitCount": "34",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T20:59:59",
+        "startTime": "2025-08-03T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "21",
+            "exitCount": "14",
+            "id": "1",
+            "passingCount": "27"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "21",
+      "exitCount": "14",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T21:59:59",
+        "startTime": "2025-08-03T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T22:59:59",
+        "startTime": "2025-08-03T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-03T23:59:59",
+        "startTime": "2025-08-03T23:00:00"
+      }
+    }
+  ],
+  "2025-08-04": [
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T00:59:59",
+        "startTime": "2025-08-04T00:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T01:59:59",
+        "startTime": "2025-08-04T01:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T02:59:59",
+        "startTime": "2025-08-04T02:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T03:59:59",
+        "startTime": "2025-08-04T03:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T04:59:59",
+        "startTime": "2025-08-04T04:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "1",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "1"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "1",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T05:59:59",
+        "startTime": "2025-08-04T05:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "36",
+            "exitCount": "34",
+            "id": "1",
+            "passingCount": "82"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "36",
+      "exitCount": "34",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T06:59:59",
+        "startTime": "2025-08-04T06:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "27",
+            "exitCount": "18",
+            "id": "1",
+            "passingCount": "107"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "27",
+      "exitCount": "18",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T07:59:59",
+        "startTime": "2025-08-04T07:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "66",
+            "exitCount": "51",
+            "id": "1",
+            "passingCount": "138"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "66",
+      "exitCount": "51",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T08:59:59",
+        "startTime": "2025-08-04T08:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "57",
+            "exitCount": "44",
+            "id": "1",
+            "passingCount": "83"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "57",
+      "exitCount": "44",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T09:59:59",
+        "startTime": "2025-08-04T09:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T10:59:59",
+        "startTime": "2025-08-04T10:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T11:59:59",
+        "startTime": "2025-08-04T11:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T12:59:59",
+        "startTime": "2025-08-04T12:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T13:59:59",
+        "startTime": "2025-08-04T13:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T14:59:59",
+        "startTime": "2025-08-04T14:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T15:59:59",
+        "startTime": "2025-08-04T15:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T16:59:59",
+        "startTime": "2025-08-04T16:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T17:59:59",
+        "startTime": "2025-08-04T17:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T18:59:59",
+        "startTime": "2025-08-04T18:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T19:59:59",
+        "startTime": "2025-08-04T19:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T20:59:59",
+        "startTime": "2025-08-04T20:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T21:59:59",
+        "startTime": "2025-08-04T21:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T22:59:59",
+        "startTime": "2025-08-04T22:00:00"
+      }
+    },
+    {
+      "RegionList": {
+        "Region": [
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "1",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "2",
+            "passingCount": "0"
+          },
+          {
+            "enterCount": "0",
+            "exitCount": "0",
+            "id": "3",
+            "passingCount": "0"
+          }
+        ]
+      },
+      "duplicatePeopleCount": "0",
+      "enterCount": "0",
+      "exitCount": "0",
+      "peoplePassingCount": "0",
+      "timeSpan": {
+        "endTime": "2025-08-04T23:59:59",
+        "startTime": "2025-08-04T23:00:00"
+      }
+    }
+  ]
+}

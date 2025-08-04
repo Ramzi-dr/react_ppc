@@ -38,6 +38,13 @@ export default function FilterBySelectedDays({ storeName, onClose, onSubmit }) {
     return selectedDates.some((d) => d.toDateString() === date.toDateString());
   };
 
+  const formatDateCH = (date) => {
+    const dd = String(date.getDate()).padStart(2, "0");
+    const mm = String(date.getMonth() + 1).padStart(2, "0");
+    const yyyy = date.getFullYear();
+    return `${dd}.${mm}.${yyyy}`;
+  };
+
   const handleSubmit = () => {
     if (!selectedDates.length) {
       alert("Please select at least one day.");
@@ -46,7 +53,7 @@ export default function FilterBySelectedDays({ storeName, onClose, onSubmit }) {
 
     const formatted = selectedDates
       .sort((a, b) => a - b)
-      .map((d) => d.toISOString().split("T")[0]);
+      .map((d) => formatDateCH(d));
 
     onSubmit({
       store: storeName,

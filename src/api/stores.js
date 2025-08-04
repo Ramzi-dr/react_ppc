@@ -234,6 +234,7 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
   else if (day) body.day = day;
 
   try {
+    console.log("[fetchDataByDayOrDays] Request body:", body);
     const res = await fetch("/api/store_data/day", {
       method: "POST",
       headers: {
@@ -252,10 +253,11 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
     const rawData = JSON.parse(text);
     console.log("[fetchDataByDayOrDays] Raw:", rawData);
 
+    // ✅ transform per-day totals
     const transformed = Object.entries(rawData).map(([date, entries]) => {
       const total = entries.reduce(
         (sum, e) => sum + parseInt(e.enterCount || "0", 10),
-        0,
+        0
       );
       return { date, total };
     });

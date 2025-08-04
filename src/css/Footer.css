@@ -19,3 +19,10 @@
   bottom: 10px;
   left: 10px;
 }
+/* 💡 Footer logo hover effect to show it's clickable */
+.footer:hover {
+  cursor: pointer;
+  opacity: 0.85;
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
