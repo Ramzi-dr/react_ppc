@@ -160,3 +160,16 @@ Truncates with ellipsis to avoid overflow.
     white-space: nowrap;
   }
 }
+.store-search-input {
+  width: 95%;
+  margin: 8px;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}

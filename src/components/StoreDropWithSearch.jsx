@@ -1,4 +1,3 @@
-// ✅ StoreDropdown.jsx (with token revoked protection + close menu after filter)
 import { useState, useEffect, useRef } from "react";
 import {
   fetchUserStores,
@@ -24,12 +23,9 @@ function handleRevokedToken(errText, status) {
   }
 }
 
-export default function StoreDropdown({
-  setPopup,
-  setChartData,
-  setChartMeta,
-}) {
+export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) {
   const [stores, setStores] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredStore, setHoveredStore] = useState(null);
   const [showSingleDayPopup, setShowSingleDayPopup] = useState(false);
@@ -55,10 +51,10 @@ export default function StoreDropdown({
         });
 
         const valid = result.filter(
-          (s) => Array.isArray(s.cameras) && s.cameras.length > 0,
+          (s) => Array.isArray(s.cameras) && s.cameras.length > 0
         );
         valid.sort((a, b) =>
-          a.name.localeCompare(b.name, undefined, { numeric: true }),
+          a.name.localeCompare(b.name, undefined, { numeric: true })
         );
 
         setStores(valid);
@@ -151,106 +147,23 @@ export default function StoreDropdown({
     else if (type === "days_time") setShowSelectedDaysPopup(true);
   };
 
-  const handleSingleDaySubmit = async ({ store, date }) => {
-    setLoading(true);
-    try {
-      const data = await fetchDataByTime({
-        store,
-        date,
-        startTime: "00:00",
-        endTime: "23:59",
-      });
-      if (!data || Object.keys(data).length === 0) {
-        setPopup({
-          message: "⚠️ No data for this day. Please try another day.",
-          type: "warning",
-        });
-        return;
-      }
-      setChartData(data);
-      setChartMeta({ store, type: "single", date });
-      setMenuOpen(false);
-      setHoveredStore(null);
-    } catch (err) {
-      if (err.message?.includes("Token revoked")) {
-        handleRevokedToken(err.message, 401);
-        return;
-      }
-      setPopup({
-        message: err.message || "❌ Failed to fetch data.",
-        type: "error",
-      });
-    } finally {
-      setLoading(false);
-    }
+  const getHighlightedText = (text, highlight) => {
+    if (!highlight) return text;
+    const regex = new RegExp(`(${highlight})`, "gi");
+    return text.split(regex).map((part, i) =>
+      regex.test(part) ? (
+        <span key={i} className="highlight">
+          {part}
+        </span>
+      ) : (
+        part
+      )
+    );
   };
 
-  const handlePeriodSubmit = async ({ store, start, end }) => {
-    setLoading(true);
-    try {
-      const data = await fetchDataByPeriod({ store, start, end });
-      if (!data || data.length === 0) {
-        setPopup({
-          message: "⚠️ No data for this range. Try other dates.",
-          type: "warning",
-        });
-        return;
-      }
-      setChartData(data);
-      setChartMeta({ store, type: "period", startDate: start, endDate: end });
-      setMenuOpen(false);
-      setHoveredStore(null);
-    } catch (err) {
-      if (err.message?.includes("Token revoked")) {
-        handleRevokedToken(err.message, 401);
-        return;
-      }
-      setPopup({
-        message: err.message || "❌ Failed to fetch range data.",
-        type: "error",
-      });
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleSelectedDaysSubmit = async ({ store, days }) => {
-    setLoading(true);
-    try {
-      const data = await fetchDataByDayOrDays({
-        store,
-        days: days,
-      });
-      if (!data || Object.keys(data).length === 0) {
-        setPopup({
-          message: "⚠️ No data for these days.",
-          type: "warning",
-        });
-        return;
-      }
-      setChartData(data);
-      setChartMeta({
-        store,
-        type: "days_time",
-        days,
-        startTime: "00:00",
-        endTime: "23:59",
-      });
-      setMenuOpen(false);
-      setHoveredStore(null);
-    } catch (err) {
-      if (err.message?.includes("Token revoked")) {
-        handleRevokedToken(err.message, 401);
-        return;
-      }
-      setPopup({
-        message: err.message || "❌ Failed to fetch data.",
-        type: "error",
-      });
-    } finally {
-      setLoading(false);
-    }
-  };
+  const filteredStores = stores.filter((store) =>
+    store.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="store-dropdown-container">
@@ -269,7 +182,15 @@ export default function StoreDropdown({
             onMouseEnter={cancelCloseTimer}
             onMouseLeave={startCloseTimer}
           >
-            {stores.map((store) => (
+            <input
+              type="text"
+              className="store-search-input"
+              placeholder="🔍 Search stores..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+
+            {filteredStores.map((store) => (
               <div
                 key={store.name}
                 className="horizontal-item"
@@ -282,7 +203,7 @@ export default function StoreDropdown({
                     }
                   }}
                 >
-                  {store.name}
+                  {getHighlightedText(store.name, searchTerm)}
                 </div>
 
                 {hoveredStore === store.name && (
@@ -294,9 +215,7 @@ export default function StoreDropdown({
                     <div onClick={() => handleFilterClick("time", store.name)}>
                       🕒 Filter by Single Day
                     </div>
-                    <div
-                      onClick={() => handleFilterClick("period", store.name)}
-                    >
+                    <div onClick={() => handleFilterClick("period", store.name)}>
                       📅 Filter by Date Range
                     </div>
                     <div
