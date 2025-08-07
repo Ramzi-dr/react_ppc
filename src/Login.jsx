@@ -127,7 +127,11 @@ export default function Login() {
               </div>
             </div>
 
-            <button className="btn btn-primary login-button" type="submit" disabled={loading}>
+            <button
+              className="btn btn-primary login-button"
+              type="submit"
+              disabled={loading}
+            >
               {loading ? "Sending..." : "Login"}
             </button>
 
@@ -145,7 +149,10 @@ export default function Login() {
                         <button
                           className="btn btn-primary btn-sm mt-2"
                           onClick={() => {
-                            window.open("https://www.homesecurity.ch/kontakt", "_blank");
+                            window.open(
+                              "https://www.homesecurity.ch/kontakt",
+                              "_blank",
+                            );
                             setPopup(null);
                           }}
                         >
@@ -173,22 +180,24 @@ export default function Login() {
               <label>Enter 6-digit Pincode:</label>
               <input
                 value={pincode}
-                onChange={(e) => setPincode(e.target.value)}
+                onChange={(e) => setPincode(e.target.value.replace(/\s+/g, ""))}
                 disabled={loading}
               />
             </div>
 
-            <button className="btn btn-primary login-button" type="submit" disabled={loading}>
+            <button
+              className="btn btn-primary login-button"
+              type="submit"
+              disabled={loading}
+            >
               {loading ? "Verifying..." : "Verify & Login"}
             </button>
           </form>
         )}
 
-<div className="footer-wrapper">
-        <Footer />
-      </div>
-
-
+        <div className="footer-wrapper">
+          <Footer />
+        </div>
       </div>
     </div>
   );

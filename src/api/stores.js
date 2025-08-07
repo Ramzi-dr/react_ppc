@@ -131,7 +131,8 @@ export async function fetchDataByTime({
 }
 
 // POST /store_data/period
-export async function fetchDataByPeriod({ store, start, end }) {
+// POST /store_data/period (start and optional end date)
+export async function fetchDataByPeriod({ store, start, end, transformed = true }) {
   const token = await getValidToken();
 
   if (!store || !start) {
@@ -157,7 +158,11 @@ export async function fetchDataByPeriod({ store, start, end }) {
     const rawData = JSON.parse(text);
     console.log("[fetchDataByPeriod] Raw:", rawData);
 
-    const transformed = Object.entries(rawData).map(([date, entries]) => {
+    if (!transformed) {
+      return rawData;
+    }
+
+    const transformedData = Object.entries(rawData).map(([date, entries]) => {
       const total = entries.reduce(
         (sum, e) => sum + parseInt(e.enterCount || "0", 10),
         0,
@@ -165,7 +170,7 @@ export async function fetchDataByPeriod({ store, start, end }) {
       return { date, total };
     });
 
-    return transformed.sort((a, b) => a.date.localeCompare(b.date));
+    return transformedData.sort((a, b) => a.date.localeCompare(b.date));
   } catch (e) {
     console.error("[fetchDataByPeriod] Error:", e.message);
     throw {
@@ -174,6 +179,7 @@ export async function fetchDataByPeriod({ store, start, end }) {
     };
   }
 }
+
 
 // POST /store_data/days_time
 export async function fetchDataByDaysWithTime({
@@ -219,7 +225,7 @@ export async function fetchDataByDaysWithTime({
   }
 }
 // POST /store_data/day (single or multiple days)
-export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
+export async function fetchDataByDayOrDays({ store, day = null, days = null, transformed = true }) {
   const token = await getValidToken();
 
   if (!store || (!day && !Array.isArray(days))) {
@@ -253,8 +259,12 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
     const rawData = JSON.parse(text);
     console.log("[fetchDataByDayOrDays] Raw:", rawData);
 
+    if (!transformed) {
+      return rawData;
+    }
+
     // ✅ transform per-day totals
-    const transformed = Object.entries(rawData).map(([date, entries]) => {
+    const transformedData = Object.entries(rawData).map(([date, entries]) => {
       const total = entries.reduce(
         (sum, e) => sum + parseInt(e.enterCount || "0", 10),
         0
@@ -262,7 +272,7 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null }) {
       return { date, total };
     });
 
-    return transformed.sort((a, b) => a.date.localeCompare(b.date));
+    return transformedData.sort((a, b) => a.date.localeCompare(b.date));
   } catch (e) {
     console.error("[fetchDataByDayOrDays] Error:", e.message);
     throw {

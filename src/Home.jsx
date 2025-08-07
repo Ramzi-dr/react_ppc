@@ -10,7 +10,6 @@ import { FiDownload } from "react-icons/fi";
 import "./css/Home.css";
 import { downloadChartData } from "./download";
 
-
 export default function Home() {
   const [popup, setPopup] = useState(null);
   const [chartData, setChartData] = useState(null);
@@ -42,7 +41,9 @@ export default function Home() {
         {!isMenuOpen && (
           <button
             className="download-button"
-            onClick={() => downloadChartData(chartData)}
+            onClick={() => {
+              downloadChartData(chartMeta.store,chartMeta);
+            }}
             title="Download"
           >
             <FiDownload size={28} />
