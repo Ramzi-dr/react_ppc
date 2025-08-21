@@ -25,13 +25,11 @@ export async function requestPincode(email, password) {
   }
 
   const data = await res.json();
-  console.log("[user.js] Login response:", data);
   return data;
 }
 
 // Verify pincode to receive tokens
 export async function verifyPincode(email, pincode) {
-  console.log("[user.js] Verifying pincode for email:", email);
 
   const res = await fetch("/api/verify_pincode", {
     method: "POST",
@@ -46,7 +44,6 @@ export async function verifyPincode(email, pincode) {
   }
 
   const data = await res.json();
-  console.log("[user.js] Pincode verification success:", data);
 
   // Save to localStorage
   localStorage.setItem("user_email", email);

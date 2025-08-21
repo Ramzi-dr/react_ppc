@@ -1,3 +1,4 @@
+// StoreDropdown.jsx — search + all filtrations working
 import { useState, useEffect, useRef } from "react";
 import {
   fetchUserStores,
@@ -16,41 +17,44 @@ import "../css/Dropdown.css";
 
 // 🔒 Token revoked handler
 function handleRevokedToken(errText, status) {
-  if (status === 401 && errText.includes("Token revoked")) {
+  if (status === 401 && errText?.includes("Token revoked")) {
     console.warn("🚫 Token revoked in StoreDropdown");
     localStorage.clear();
     window.location.href = "/";
   }
 }
 
-export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) {
+export default function StoreDropdown({ setPopup, setChartData, setChartMeta, chartMeta }) {
   const [stores, setStores] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredStore, setHoveredStore] = useState(null);
+
   const [showSingleDayPopup, setShowSingleDayPopup] = useState(false);
   const [showPeriodPopup, setShowPeriodPopup] = useState(false);
   const [showSelectedDaysPopup, setShowSelectedDaysPopup] = useState(false);
   const [popupStore, setPopupStore] = useState(null);
+
   const [loading, setLoading] = useState(false);
 
   const dropdownRef = useRef(null);
   const closeTimerRef = useRef(null);
   const hoverZoneRef = useRef(null);
 
+  // ---------- load stores + set first store today data ----------
   useEffect(() => {
     async function loadStores() {
       setLoading(true);
       try {
         const result = await fetchUserStores().catch((err) => {
-          if (err.message?.includes("Token revoked")) {
+          if (err?.message?.includes("Token revoked")) {
             handleRevokedToken(err.message, 401);
             return [];
           }
           throw err;
         });
 
-        const valid = result.filter(
+        const valid = (result || []).filter(
           (s) => Array.isArray(s.cameras) && s.cameras.length > 0
         );
         valid.sort((a, b) =>
@@ -70,7 +74,7 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
               date: new Date().toISOString().split("T")[0],
             });
           } catch (err) {
-            if (err.message?.includes("Token revoked")) {
+            if (err?.message?.includes("Token revoked")) {
               handleRevokedToken(err.message, 401);
               return;
             }
@@ -78,7 +82,7 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
           }
         }
       } catch (err) {
-        setPopup({ message: err.message, type: err.type || "error" });
+        setPopup({ message: err.message || "Failed to load stores", type: err.type || "error" });
       } finally {
         setLoading(false);
       }
@@ -86,24 +90,27 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
     loadStores();
   }, [setPopup, setChartData, setChartMeta]);
 
+  // ---------- close on outside click ----------
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setMenuOpen(false);
         setHoveredStore(null);
+        setSearchTerm(""); // ✅ clear search when closing menu
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // ---------- hover timers ----------
   const startCloseTimer = () => {
     closeTimerRef.current = setTimeout(() => {
       setMenuOpen(false);
       setHoveredStore(null);
+      setSearchTerm(""); // ✅ clear when auto-closing
     }, 3000);
   };
-
   const cancelCloseTimer = () => {
     if (closeTimerRef.current) {
       clearTimeout(closeTimerRef.current);
@@ -111,6 +118,7 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
     }
   };
 
+  // ---------- click store -> today ----------
   const handleStoreClick = async (storeName) => {
     const store = stores.find((s) => s.name === storeName);
     if (!store || store.cameras?.length === 0) {
@@ -129,17 +137,19 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
       });
       setMenuOpen(false);
       setHoveredStore(null);
+      setSearchTerm(""); // ✅ clear after selecting store
     } catch (err) {
-      if (err.message?.includes("Token revoked")) {
+      if (err?.message?.includes("Token revoked")) {
         handleRevokedToken(err.message, 401);
         return;
       }
-      setPopup({ message: err.message, type: err.type || "error" });
+      setPopup({ message: err.message || "Failed to fetch today's data", type: err.type || "error" });
     } finally {
       setLoading(false);
     }
   };
 
+  // ---------- open filter popups ----------
   const handleFilterClick = (type, storeName) => {
     setPopupStore(storeName);
     if (type === "time") setShowSingleDayPopup(true);
@@ -147,9 +157,103 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
     else if (type === "days_time") setShowSelectedDaysPopup(true);
   };
 
+  // ---------- SUBMIT HANDLERS ----------
+  const handleSingleDaySubmit = async ({ store, date }) => {
+    setLoading(true);
+    try {
+      const data = await fetchDataByTime({
+        store,
+        date,
+        startTime: "00:00",
+        endTime: "23:59",
+      });
+      if (!data || Object.keys(data).length === 0) {
+        setPopup({
+          message: "⚠️ No data for this day. Please try another day.",
+          type: "warning",
+        });
+        return;
+      }
+      setChartData(data);
+      setChartMeta({ store, type: "single", date });
+      setMenuOpen(false);
+      setHoveredStore(null);
+      setSearchTerm(""); // ✅ clear after submit
+    } catch (err) {
+      if (err?.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
+      setPopup({ message: err.message || "❌ Failed to fetch data.", type: "error" });
+    } finally {
+      setLoading(false);
+      setShowSingleDayPopup(false);
+    }
+  };
+
+  const handlePeriodSubmit = async ({ store, start, end }) => {
+    setLoading(true);
+    try {
+      const data = await fetchDataByPeriod({ store, start, end });
+      if (!data || data.length === 0) {
+        setPopup({
+          message: "⚠️ No data for this range. Try other dates.",
+          type: "warning",
+        });
+        return;
+      }
+      setChartData(data);
+      setChartMeta({ store, type: "period", startDate: start, endDate: end });
+      setMenuOpen(false);
+      setHoveredStore(null);
+      setSearchTerm(""); // ✅ clear after submit
+    } catch (err) {
+      if (err?.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
+      setPopup({ message: err.message || "❌ Failed to fetch range data.", type: "error" });
+    } finally {
+      setLoading(false);
+      setShowPeriodPopup(false);
+    }
+  };
+
+  const handleSelectedDaysSubmit = async ({ store, days }) => {
+    setLoading(true);
+    try {
+      const data = await fetchDataByDayOrDays({ store, days });
+      if (!data || Object.keys(data).length === 0) {
+        setPopup({ message: "⚠️ No data for these days.", type: "warning" });
+        return;
+      }
+      setChartData(data);
+      setChartMeta({
+        store,
+        type: "days_time",
+        days,
+        startTime: "00:00",
+        endTime: "23:59",
+      });
+      setMenuOpen(false);
+      setHoveredStore(null);
+      setSearchTerm(""); // ✅ clear after submit
+    } catch (err) {
+      if (err?.message?.includes("Token revoked")) {
+        handleRevokedToken(err.message, 401);
+        return;
+      }
+      setPopup({ message: err.message || "❌ Failed to fetch data.", type: "error" });
+    } finally {
+      setLoading(false);
+      setShowSelectedDaysPopup(false);
+    }
+  };
+
+  // ---------- search + highlight ----------
   const getHighlightedText = (text, highlight) => {
     if (!highlight) return text;
-    const regex = new RegExp(`(${highlight})`, "gi");
+    const regex = new RegExp(`(${highlight.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi");
     return text.split(regex).map((part, i) =>
       regex.test(part) ? (
         <span key={i} className="highlight">
@@ -170,7 +274,10 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
       <div className="align-menu" ref={dropdownRef}>
         <button
           className="dropdown-button"
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => {
+            setMenuOpen((prev) => !prev);
+            if (menuOpen) setSearchTerm(""); // ✅ clear when toggling closed
+          }}
         >
           Stores ▾
         </button>
@@ -218,9 +325,7 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
                     <div onClick={() => handleFilterClick("period", store.name)}>
                       📅 Filter by Date Range
                     </div>
-                    <div
-                      onClick={() => handleFilterClick("days_time", store.name)}
-                    >
+                    <div onClick={() => handleFilterClick("days_time", store.name)}>
                       📆 Filter Multiple Days
                     </div>
                   </div>
@@ -251,6 +356,13 @@ export default function StoreDropdown({ setPopup, setChartData, setChartMeta }) 
             storeName={popupStore}
             onClose={() => setShowSelectedDaysPopup(false)}
             onSubmit={handleSelectedDaysSubmit}
+            initialDays={
+              chartMeta?.type === "days_time" &&
+              chartMeta?.store === popupStore &&
+              Array.isArray(chartMeta.days)
+                ? chartMeta.days
+                : []
+            }
           />
         )}
       </div>

@@ -78,7 +78,6 @@ export async function fetchTodayDataIfStoreHasCameras(storeOrList) {
     }
 
     const data = JSON.parse(text);
-    console.log("[fetchTodayDataIfStoreHasCameras] Data:", data);
     return data;
   } catch (e) {
     console.error("[fetchTodayDataIfStoreHasCameras] Error:", e.message);
@@ -119,7 +118,6 @@ export async function fetchDataByTime({
     }
 
     const data = JSON.parse(text);
-    console.log("[fetchDataByTime] Data:", data);
     return data;
   } catch (e) {
     console.error("[fetchDataByTime] Error:", e.message);
@@ -156,7 +154,6 @@ export async function fetchDataByPeriod({ store, start, end, transformed = true 
     }
 
     const rawData = JSON.parse(text);
-    console.log("[fetchDataByPeriod] Raw:", rawData);
 
     if (!transformed) {
       return rawData;
@@ -214,7 +211,6 @@ export async function fetchDataByDaysWithTime({
     }
 
     const data = JSON.parse(text);
-    console.log("[fetchDataByDaysWithTime] Data:", data);
     return data;
   } catch (e) {
     console.error("[fetchDataByDaysWithTime] Error:", e.message);
@@ -240,7 +236,6 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null, tra
   else if (day) body.day = day;
 
   try {
-    console.log("[fetchDataByDayOrDays] Request body:", body);
     const res = await fetch("/api/store_data/day", {
       method: "POST",
       headers: {
@@ -257,7 +252,6 @@ export async function fetchDataByDayOrDays({ store, day = null, days = null, tra
     }
 
     const rawData = JSON.parse(text);
-    console.log("[fetchDataByDayOrDays] Raw:", rawData);
 
     if (!transformed) {
       return rawData;

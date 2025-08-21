@@ -24,7 +24,7 @@ ChartJS.register(
   Legend,
   Title,
   Filler,
-  ChartDataLabels
+  ChartDataLabels,
 );
 
 export default function Chart({ data = {}, meta = {} }) {
@@ -41,7 +41,7 @@ export default function Chart({ data = {}, meta = {} }) {
   }, [data]);
 
   const labels = [...Array(24).keys()].map(
-    (h) => h.toString().padStart(2, "0") + ":00"
+    (h) => h.toString().padStart(2, "0") + ":00",
   );
 
   const hourlyData = Array(24)
@@ -55,21 +55,21 @@ export default function Chart({ data = {}, meta = {} }) {
     const d = new Date(dateStr);
     return isNaN(d) ? "??" : d.toLocaleDateString("de-CH");
   }
-
+  const totalEnter = hourlyData.reduce((sum, d) => sum + (d.enter || 0), 0);
   let title = "Chart";
   if (meta?.store && meta?.type === "today") {
-    title = `${meta.store} – Today Chart`;
+    title = `${meta.store} – Today Chart (${totalEnter})`;
   } else if (meta?.store && meta?.type === "single") {
-    title = `${meta.store} – ${formatDate(meta.date)}`;
+    title = `${meta.store} – ${formatDate(meta.date)} (${totalEnter})`;
   } else if (meta?.store && meta?.type === "period") {
     title = `${meta.store} – ${formatDate(meta.startDate)} → ${formatDate(
-      meta.endDate
+      meta.endDate,
     )}`;
   } else if (meta?.store && meta?.type === "days_time") {
     title = `${meta.store} – Multiple Days`;
   }
 
-  // 🔥 Add dynamic Y-axis height padding
+  //  Add dynamic Y-axis height padding
   const maxValue = Math.max(...hourlyData.map((d) => d.enter), 10);
   const paddedMax = Math.ceil(maxValue * 1.2); // 20% padding
 

@@ -18,6 +18,12 @@ export default function FilterByPeriod({ storeName, onClose, onSubmit }) {
 
   const popupRef = useRef(null);
 
+  // ✅ Focus on open to capture keyboard events
+  useEffect(() => {
+    if (popupRef.current) popupRef.current.focus();
+  }, []);
+
+  // ✅ Close on outside click
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (popupRef.current && !popupRef.current.contains(e.target)) {
@@ -47,9 +53,24 @@ export default function FilterByPeriod({ storeName, onClose, onSubmit }) {
     onClose();
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSubmit();
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      onClose();
+    }
+  };
+
   return (
     <div className="popup-overlay">
-      <div className="popup-content" ref={popupRef}>
+      <div
+        className="popup-content"
+        ref={popupRef}
+        tabIndex={0}               // ✅ make focusable
+        onKeyDown={handleKeyDown}  // ✅ handle Enter/Escape
+      >
         <h2>Filter by Date Range</h2>
         <p>
           <b>Store:</b> {storeName}

@@ -42,7 +42,7 @@ export default function Home() {
           <button
             className="download-button"
             onClick={() => {
-              downloadChartData(chartMeta.store,chartMeta);
+              downloadChartData(chartMeta.store, chartMeta);
             }}
             title="Download"
           >
@@ -57,6 +57,7 @@ export default function Home() {
           setPopup={setPopup}
           setChartData={setChartData}
           setChartMeta={setChartMeta}
+          chartMeta={chartMeta}
         />
       </div>
 

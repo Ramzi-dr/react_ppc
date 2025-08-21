@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../css/FilterPopup.css";
 
 export default function FilterBySingleDay({ storeName, onClose, onSubmit }) {
@@ -10,6 +10,7 @@ export default function FilterBySingleDay({ storeName, onClose, onSubmit }) {
 
   const [date, setDate] = useState(today);
   const dateRef = useRef(null);
+  const popupRef = useRef(null);
 
   const handleSubmit = () => {
     if (!date) {
@@ -31,9 +32,29 @@ export default function FilterBySingleDay({ storeName, onClose, onSubmit }) {
     }
   };
 
+  // ✅ Focus to capture Enter/Escape keys
+  useEffect(() => {
+    if (popupRef.current) popupRef.current.focus();
+  }, []);
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSubmit();
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      onClose();
+    }
+  };
+
   return (
     <div className="popup-overlay">
-      <div className="popup-content">
+      <div
+        className="popup-content"
+        ref={popupRef}
+        tabIndex={0}               // ✅ make focusable
+        onKeyDown={handleKeyDown}  // ✅ handle Enter/Escape
+      >
         <h2>Filter by Single Day</h2>
         <p>
           <b>Store:</b> {storeName}

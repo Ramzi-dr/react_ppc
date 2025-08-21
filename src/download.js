@@ -44,7 +44,6 @@ export async function downloadChartData(store, meta) {
         throw new Error("Unsupported chart type for export");
     }
 
-    console.log("[downloadChartData] Raw backend data:", rawData);
 
     // Transform to flat CSV format with only Date, Hour, Enter
     const rows = [];
